@@ -11,6 +11,7 @@ from .forms import FileForm
 from .models import PdfFile
 
 from . import views
+import subprocess, shlex
 
 def index(request):
     template = loader.get_template('question_generator/index.html')
@@ -31,11 +32,15 @@ class PdfFileView(FormView):
 		file=self.get_form_kwargs().get('files')['file'])
 		Pdf_File.save()
 		self.id = Pdf_File.id
+		name = str(Pdf_File.file.name)
+		print(name)
+		subprocess.call(shlex.split("python3 ../../pdf/pdfminer.six-master/pdf2txt.py ./media/" + name + " -o ./media/question_paper_files_txt/comprehension.txt"))
 		return HttpResponseRedirect((self.get_success_url()))
 
 
 def question_paper(request):
 	print("Into question_paper")
+	print("hello")
 
 	return render(request, 'question_generator/question_paper.html')
 

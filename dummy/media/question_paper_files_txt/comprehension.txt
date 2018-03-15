@@ -1,0 +1,97 @@
+Summarizing news articles
+
+7 June 2017
+
+1 Decisions made
+
+We have decided to use tensorﬂow instead of torch to implement deep learning
+due to its easinesss since it handles them very well, and extension of code to
+GPUs is quite minimal And the speed ups are tremendous, in our mentor’s
+experience.
+
+2 Things learnt
+
+2.1 Linux
+
+Getting acquainted with ubuntu and terminal
+
+2.2 Python
+
+All of the team members according to their pre proﬁciency in python spent
+time learning numpy. One of the sources used was http://cs231n.github.io/
+python-numpy-tutorial
+
+2.3 Machine Learning
+
+Did CS229,An introduction to machine learning by Andrew Ng from Coursera
+till Neural Nets.
+
+• Supervised learning (parametric/non-parametric algorithms, support vec-
+
+tor machines, kernels, neural networks)
+
+• Best practices in machine learning (bias/variance theory; innovation pro-
+
+cess in machine learning and AI)
+
+• Linear regression,Logistic Regression
+• Gradient descent,Stochastic Gradient Descent
+
+1
+
+2.4 Deep Learning
+
+Udacity course on Deep Learning
+
+• Deep Neural Networks
+• Convolutional Neural Networks
+• Deep Models for text and sequences
+
+2.5 First task
+
+1. Download MNIST dataset
+
+2. Create a dataset of 100,000 images using Numpy where there is a presence
+
+of 2 digits in the same image(i.e. 100 labels)
+
+3. Tag the dataset while creating it. If the image contains a number 3,4 then
+mark it as 34. Note this would be as to which number is left to what
+number in the image.
+
+4. The size of the images have to 64x64.
+
+5. Train a 5 layer convolutional network using this dataset and report accu-
+racy. Use tensorﬂow and GPUs.The data should be completely random
+and the task should be completely automated.
+
+Link to the task implemented
+
+https://github.com/hunarpreet1/cnn
+
+2.6 Current work
+
+A paper on GAN (by the guy who came up with them) and a book on informa-
+tion retrieval using NLP techniques. We have to go through the entire paper.
+From the book through Chapter 1, 2, 6, 7, 11, 12
+
+GAN ian goodfellow.pdf
+irbook manning.pdf
+
+Well tabulated results by everyone Of image classiﬁcation Using 3 kinds of
+
+networks:
+
+1. 2 hidden layers, Low epochs
+
+2. 3 hidden layers, high epochs
+
+3. Linear models, high epochs
+
+https://arxiv.org/pdf/1701.06547.pdf
+
+A paper On neural text generation, using Adversarial models
+
+2
+
+
