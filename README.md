@@ -4,9 +4,7 @@
 
 ## Project name: *acadAI*
 
-[Drive Link for complete package](https://drive.google.com/open?id=1ZdUpFgePDblMKwpui2N3hfNlJAiZyzBK)(No need to clone the github)
-
-[Link for Documentation](*To be completed*)
+[Drive Link for complete package](https://drive.google.com/open?id=1ZdUpFgePDblMKwpui2N3hfNlJAiZyzBK)*(No need to clone the github repo)*
 
 **Requirements**
 * python 3.6.0
@@ -38,3 +36,8 @@
 * [Reverse-Squad](https://github.com/sld/reverse-squad)
 * [DrQA](https://github.com/facebookresearch/DrQA)
 * [nlg-eval](https://github.com/Maluuba/nlg-eval)
+
+**Training Datasets**
+* Reverse-Squad
+* GloVe-1.2
+* Squad
