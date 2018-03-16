@@ -4,7 +4,7 @@
 
 ## Project name: acadAI
 
-* [Drive Link] * (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
+*[Drive Link]* (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
 
 *[Link for Complete Documentation]* (*To be completed*)
 
@@ -29,5 +29,5 @@
 1. Clone the git repository
 2. Unpack the files given via drive link
 3. Move all files inside the dummy directory, henceforth the working directory.
-4. On the command line, run the command: ```python python3 manage.py runserver```
+4. On the command line, run the command: ```python3 manage.py runserver```
 5. Open browser, and go to local server address.
