@@ -33,3 +33,8 @@
 3. Move all files inside the dummy directory, henceforth the working directory.
 4. On the command line, run the command: ```python3 manage.py runserver```
 5. Open browser, and go to local host
+
+**Citations**
+* [Reverse-Squad](https://github.com/sld/reverse-squad)
+* [DrQA](https://github.com/facebookresearch/DrQA)
+* [nlg-eval](https://github.com/Maluuba/nlg-eval)
