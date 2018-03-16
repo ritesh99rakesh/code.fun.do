@@ -4,9 +4,9 @@
 
 ## Project name: acadAI
 
-[Drive Link] (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
+[Drive Link for complete package] (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
 
-[Link for Complete Documentation] (*To be completed*)
+[Link for Documentation] (*To be completed*)
 
 **Requirements**
 * Python 3.6.0
@@ -31,3 +31,4 @@
 3. Move all files inside the dummy directory, henceforth the working directory.
 4. On the command line, run the command: ```python3 manage.py runserver```
 5. Open browser, and go to local server address.
+
