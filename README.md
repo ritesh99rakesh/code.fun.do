@@ -29,7 +29,7 @@
 1. Unpack the files given via drive link
 2. Move all files inside the dummy directory, henceforth the working directory.
 3. On the command line, run the command: ```python3 manage.py runserver```
-4. Open browser, and go to [link](127.0.0.1:8000)
+4. Open browser, and go to 127.0.0.1:8000
 
 **Citations**
 * [Reverse-Squad](https://github.com/sld/reverse-squad)
