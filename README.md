@@ -1,8 +1,33 @@
 # code.fun.do
-Team name: Illuminati
-Project name: acadAI
-Drive Link: https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX
-Link for Complete Documentation: https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F18waDRfhR6K9PTYjsMnalqVSZcMs0z2udaeti1O8bn-A%2Fedit%3Fusp%3Dsharing&h=ATPMWlpjCeQ0_SRh0MZXJw8LPJhxVAQ1MNQ2WRObfAArZaWKRypevCeQN67lxgtdqXkcoMwyFkgMdY0uRF37GPFucwxQKCuK-1fPcyWcYkrhRlnbAeSEmf17ZN226H2l3nSwGhJrqCzF
 
-*show how this is will look*
-[link to Google!](http://google.com)
+# Team name: Illuminati
+
+## Project name: acadAI
+
+* [Drive Link] * (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
+
+*[Link for Complete Documentation]* (*To be completed*)
+
+**Requirements**
+* Python 3.6.0
+* Python 2.0
+* Tensorflow 1.1.0
+* Numpy
+* scikit-learn
+* termcolor
+* regex
+* nltk
+* scipy
+* pexpect
+* Gensim
+* prettytable
+* Django
+* PyTorch
+* theano
+
+**Installing the app on your device**
+1. Clone the git repository
+2. Unpack the files given via drive link
+3. Move all files inside the dummy directory, henceforth the working directory.
+4. On the command line, run the command: ```python python3 manage.py runserver```
+5. Open browser, and go to local server address.
