@@ -4,9 +4,9 @@
 
 ## Project name: *acadAI*
 
-[Drive Link for complete package] (https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
+[Drive Link for complete package](https://drive.google.com/open?id=1Mh746cxCNCVs8xj_0TdVLgdm76Qw1_AX)
 
-[Link for Documentation] (*To be completed*)
+[Link for Documentation](*To be completed*)
 
 **Requirements**
 * python 3.6.0
@@ -17,6 +17,7 @@
 * termcolor
 * regex
 * nltk
+* click 6.3
 * scipy
 * pexpect
 * gensim
@@ -24,6 +25,7 @@
 * django
 * PyTorch
 * theano
+* java 1.8.0
 
 **Installing the app on your device**
 1. Clone the git repository
